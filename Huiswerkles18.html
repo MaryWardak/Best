@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, inital-scale=1.0">
+<title>Huiswerk opgave les 18</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&family=Roboto:wght@300&display=swap" rel="stylesheet">
+<style>
+[class*="col-"] {
+  width: 100%;
+}@media only screen and (min-width: 768px) {
+[class*="col-"]{
+  float: left;
+  padding: 15px;
+}
+.col-1 {width: 8.33%}
+.col-2 {width: 16.66%}
+.col-3 {width: 25%}
+.col-4 {width: 33.33%}
+.col-5 {width: 41.66%}
+.col-6 {width: 50%}
+.col-7 {width: 58.33%}
+.col-8 {width: 66.66%}
+.col-9 {width: 75%}
+.col-10 {width: 83.33%}
+.col-11 {width: 91.66%}
+.col-12 {width: 100%}
+}
+body{
+}
+header{
+font-family: 'Roboto', sans-serif;
+font-family: 'Roboto Mono', monospace;
+font-size: 40px;
+background-image: url("https://www.ensannereist.nl/wp-content/uploads/2017/01/Noord-Brabant-ensannereist.jpg");
+width: 100%;
+height: 800px;
+}
+h1{
+  position: absolute;
+  top: 25%;
+  left: 20%;
+}
+h2{
+  margin: 5%;
+}
+footer{
+background-color: olive;
+width: 100%;
+height: 100px;
+}
+#een{
+background-color: #145C21;
+color: white;
+font-family: sans-serif;
+font-size: 14px;
+height: 25%;
+width: 100%;
+display: inline-block;
+padding: 5%;
+}
+#twee{
+background-color: #FCDCDC;
+font-family: sans-serif;
+font-size: 15px;
+height: 70%;
+padding: 5%;
+}
+#kerk{
+  float: right;
+  margin: 5px;
+  border: 2px solid white;
+  padding: 5px;
+  position: static;
+}
+#kaart{
+  float: right;
+  margin: 5px;
+  border: 2px solid white;
+  padding: 5px;
+  position: static;
+}
+section{
+  display: flex;
+}
+p{
+  margin: 5%;
+}
+</style>
+</head>
+<body>
+  <header>
+  <h1>Best, Noord-Brabant</h1>
+</header>
+<div class="row">
+<div class="col-2">
+  <section id="een">
+    <h2>Dit wist je niet over Best:</h2>
+    <ul>
+    <li>Carnavalsnaam: Klompegat</li>
+    <li>In de regio werden vroeger klompen gemaakt</li>
+    <li>Oorspronkelijke bewoners waren Kelten (1700 voor Christus)</li>
+    <li>Eerst gekozen burgemeester van Nederland</li>
+    <li>Heeft de voordeligste kermis van Nederland</li>
+    </ul>
+  </section>
+  </div>
+  <div class="col-9">
+    <section id="twee">
+      <div class="een">
+        <h2>Over Best</h2>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam eget nunc sagittis, varius est suscipit, vulputate tortor. Donec gravida lorem sed ante tincidunt, at tristique lorem pellentesque. Fusce sed dolor dignissim, rutrum ligula non, consectetur lorem. Morbi feugiat fringilla augue nec imperdiet. Phasellus sollicitudin diam ut turpis mattis consequat. Pellentesque consectetur rhoncus enim, cursus rhoncus massa imperdiet sit amet. Mauris a tempus nibh, ac iaculis ex. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Proin ut quam a elit aliquet posuere sed eu ante. Vestibulum ac vehicula libero. Donec dictum eros ex, a varius purus congue non. Nulla faucibus velit est, quis iaculis arcu sodales molestie. Etiam feugiat ante vel blandit volutpat. Sed sollicitudin congue risus in feugiat.</p>
+      <img id="kerk" src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Best_Rijksmonument_512321_kerk_H.Odulphus.JPG/1920px-Best_Rijksmonument_512321_kerk_H.Odulphus.JPG" width="200" height="200" alt="kerk">
+    </div>
+      <div class="twee>">
+        <h2>Geschiedenis van Best</h2>
+      <p>Donec rutrum aliquam tincidunt. Nullam tempus sit amet orci id convallis. Praesent ornare interdum arcu. Morbi sed accumsan nisl, at mattis mi. Nullam rhoncus gravida congue. Phasellus aliquam turpis vel purus ultrices tempus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Morbi vitae justo efficitur, euismod arcu et, dignissim augue. Pellentesque a euismod libero, sed sagittis leo. Donec semper vehicula mauris, ut ultricies risus fringilla nec. Vivamus bibendum felis eu vehicula fermentum.</p>
+      <img id="kaart" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/54/Best-plaats-OpenTopo.jpg/1070px-Best-plaats-OpenTopo.jpg" width="200" height="200" alt="kaart van best">
+    </div>
+    </section>
+  </div>
+</div>
+<div class="col-12">
+  <footer></footer>
+</div>
+</body>
+</html>
